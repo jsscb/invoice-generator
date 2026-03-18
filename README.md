@@ -1,28 +1,48 @@
-📄 Invoice Generator (Power Apps + Power Automate)
-🚀 Overview
+# 📄 Invoice Generator (Power Apps + Power Automate)
 
-This project is a low-code invoice generation system built using Microsoft Power Apps and Power Automate.
+## 🚀 Overview
+This project is a low-code invoice generator system built using Microsoft Power Apps and Power Automate.
 
-It allows users to create invoices dynamically, calculate totals automatically, and trigger workflows for processing invoice data.
+It allows users to create invoices automatically and trigger workflows for processing invoice data.
 
-✨ Key Features
+---
 
-Add & remove invoice items dynamically
+## ✨ Key Features
+- Add & remove invoice items dynamically  
+- Automatic subtotal calculation  
+- Shipping cost input  
+- Grand total calculation  
+- Invoice number auto-generation  
 
-Automatic subtotal calculation
+---
 
-Shipping cost input
+## ⚙️ How It Works
+1. User inputs menu, quantity, price, and shipping  
+2. Power Apps calculates:
+   - Subtotal  
+   - Total  
+3. Data is stored in SharePoint  
+4. Power Automate:
+   - Processes invoice data  
+   - Generates formatted invoice (HTML)  
+   - Sends output  
 
-Grand total calculation
+---
 
-Invoice number auto-generation
+## 📸 Screenshots
+### Input Form
+![Form](img/InvoiceGenerator.jpg)
 
-Workflow automation using Power Automate
+### Invoice Table
+![Table](screenshots/table.png)
 
-🛠 Tech Stack
+### Total Calculation
+![Total](screenshots/total.png)
 
-Power Apps → UI, logic, and calculations
+### Power Automate Flow
+![Flow](screenshots/flow.png)
 
-Power Automate → workflow automation
+---
 
-SharePoint → data storage
+## 🎥 Demo Video
+(Add your video link here)
