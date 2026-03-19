@@ -34,4 +34,5 @@ It allows users to create invoices automatically and trigger workflows for proce
 ---
 
 ## 🎥 Demo Video
-![Demo](img/Demo.mp4)
+[Watch the demo](https://youtu.be/inMiwh7Bz_E)
+
